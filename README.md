@@ -4,6 +4,8 @@ A multi-agent research system built with **Pydantic AI**, **Gradio**, and **Duck
 
 Give it a free-text query or a stock ticker (for example `LTH` or `TSLA`). It resolves the topic, runs a discovery search, generates 3–4 research angles, fetches sources in parallel, extracts cited facts, and synthesizes a structured Markdown report.
 
+**See the demo:** [watch the agent run on `LTH`](https://vimeo.com/1229335366) (about one minute). This prototype is also an addendum to the Life Time case study — [Transforming Membership Value at Life Time Fitness](https://uxfol.io/p/roy.torres/865033e6).
+
 ## How it works
 
 Four specialized Pydantic AI agents run in sequence:
